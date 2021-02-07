@@ -1,0 +1,56 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1612730132052' stop='1612730149337'>
+    <name>search:</name>
+    <title>search:</title>
+    <test-cases>
+        <test-case start='1612730132053' status='passed' stop='1612730149181'>
+            <name>test something</name>
+            <title>test something</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1612730132598' status='passed' stop='1612730146120'>
+                    <name>I am on page "https://github.com"</name>
+                    <title>I am on page "https://github.com"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "https://github.com"' source='a1f4f292-97e0-45f1-b9e1-f3facea184c1-attachment.png' type='image/png' size='712013'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1612730146120' status='passed' stop='1612730146857'>
+                    <name>I see "GitHub"</name>
+                    <title>I see "GitHub"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I see "GitHub"' source='2f100803-16cd-4df0-bd8b-743748290545-attachment.png' type='image/png' size='712551'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1612730146858' status='passed' stop='1612730147768'>
+                    <name>I fill field "Search GitHub", "test"</name>
+                    <title>I fill field "Search GitHub", "test"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "Search GitHub", "test"' source='297de523-386d-4e77-b11b-762beb360c6d-attachment.png' type='image/png' size='716253'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1612730147768' status='passed' stop='1612730148597'>
+                    <name>I click "[data-item-type="global_search"]"</name>
+                    <title>I click "[data-item-type="global_search"]"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click "[data-item-type="global_search"]"' source='4ef5366a-ffb2-4d41-8380-b73f3512a286-attachment.png' type='image/png' size='717045'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1612730148597' status='passed' stop='1612730149181'>
+                    <name>I see in current url "https://github.com/search?q=test"</name>
+                    <title>I see in current url "https://github.com/search?q=test"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I see in current url "https://github.com/search?q=test"' source='752b3f62-1a9e-46e5-80ab-5b301b504be9-attachment.png' type='image/png' size='145703'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
